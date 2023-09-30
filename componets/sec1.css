@@ -1,0 +1,49 @@
+.sec1 {
+    background-color: #FDC800;
+}
+.sec1 .container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.active1 {
+    display: flex;
+    gap: 10px; 
+}
+.active1111{
+    gap: 13px;
+}
+.active1111 .fa-brands:hover{
+    transform: scale(1.1);
+    background-color: black;
+    /* color: #ffffff; */
+    color: rgb(255, 179, 0);
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    width: 30px;
+    aspect-ratio: 1;
+    /* margin: 0 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:576px){
+    .sec1 {
+        display: none;
+}
+}
+@media (min-width:576px) and (max-width:768px){
+    .sec1 {
+        display: none;
+}
+}
+@media (min-width:768px) and (max-width:992px){
+    
+}
+@media (min-width:992px) and (max-width:1200px){
+    
+}
+@media (min-width:1200px) and (max-width:1500px){
+
+}

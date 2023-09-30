@@ -1,0 +1,129 @@
+.sec7 {
+    padding: 2rem 0;
+    /* height: 550px; */
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center; */
+    /* margin: auto; */
+    /* background-color: aqua; */
+}
+.sec7 .container{
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* align-content: center; */
+    /* background-color: aqua; */
+}
+.small-img4 {
+
+}
+.Subscrible {
+    /* background-col/or: red; */
+    display: flex;
+    flex-direction: column; 
+    gap: 7px;
+    position: relative; 
+    justify-content: center;
+    /* transform: translate(0%,10%); */
+    /* position: relative;
+    top: 30%;
+    left: 90%; */
+}
+.word17-1{
+    font-size: 15px;
+    color: #FDC800;
+}
+.word18-1{
+    /* background-color: rebeccapurple; */
+    width: 65%;
+    font-size: 30px;
+    font-weight: 700;
+}
+.input {
+    padding: 25px;
+    width: 380px;
+    height: 40px;
+    box-shadow: 2px 1px 2px 2px #BDBDBD;
+    border: #D3E6FB;
+}
+.Subscrible .fa-solid{
+    position: absolute;
+    top: 59%;
+    left: 1%;
+}
+.button5 {
+    width: 100px;
+    height: 35px;
+    /* transform: translate(275%,-195%); */
+    position: absolute;
+    top: 57%;
+    right: 23%;
+    background-color: #FDC800;
+    border-radius:5px ;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button5:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    color: #ffffff;
+}
+@media (max-width:576px){
+    .sec7 .container{
+        /* width: 65%; */
+        grid-template-columns: repeat(1,1fr);
+    }
+    .button5{
+        top: 70%;
+        right: 2%;
+        /* left: 72%; */
+    }
+    .Subscrible .fa-solid{
+        top: 79%;
+        left: 1%;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .sec7 .container{
+        /* width: 65%; */
+        grid-template-columns: repeat(1,1fr);
+    }
+    .button5{
+        position: absolute;
+        top: 70%;
+        right:15%;
+        /* left: 72%; */
+    }
+    .Subscrible .fa-solid{
+        top: 79%;
+        left: 1%;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .sec7 .container{
+        /* width: 65%; */
+        grid-template-columns: repeat(1,1fr);
+    }
+    .button5{
+        position: absolute;
+        top: 70%;
+        right:35%;
+        /* left: 72%; */
+    }
+    .Subscrible .fa-solid{
+        top: 79%;
+        left: 1%;
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .button5{
+        position: absolute;
+        /* top: 70%; */
+        right:18%;
+        /* left: 72%; */
+    }
+}
+@media (min-width:1200px) and (max-width:1500px){
+
+}

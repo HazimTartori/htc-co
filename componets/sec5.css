@@ -1,0 +1,141 @@
+.sec5 {
+    background-color: #FFFFFF;
+    padding: 5rem 0;
+}
+.sec5 .container{
+    /* width:950px; */
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    /* position: relative;
+    top: 15%; */
+    /* background-color:aqua ; */
+    width: 66%;
+}
+/* .hero1-g3 {
+} */
+.super1 {
+position: relative;
+/* background-color: #FDC800; */
+/* margin-left: 100px; */
+}
+.small-img2 {
+    position: relative;
+    width: 120px;
+    height:120px;
+    background-color: #FDC800;
+    position:absolute;
+    right: 88%;
+    bottom: 85%; 
+}
+.small-img3 {
+position: absolute;
+top: 13%;
+left: 18%;
+}
+.super2 {
+    width: 75%;
+    height:77px;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 88%;
+    left: 9%;
+}
+.word8 {
+    font-size: larger;
+    font-weight: 700;
+}
+.word9 {
+    opacity: 0.6;  
+}
+.befor-footer2 {
+    padding: 2rem 0rem 0.5rem 0rem;
+    /* margin-left: -90px; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.word10 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.word11 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FDC800;
+}
+.word12 {
+    font-size: 12px;
+    width: 77%;
+    /* background-color: #FDC800; */
+}
+.word13 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.super3 {
+    background-color: #F0F4F9;
+    /* width:511px ; */
+    height: 97px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.small1-img4 {
+    width: 80px;
+    height:80px ;
+}
+.word14 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.word15 {
+    padding-top: 7px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+@media (max-width:576px){
+    .sec5 .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .super1 img{
+        width: 110%;
+    }
+    .small-img2 .small-img3{
+        width: 80%;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .sec5 .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .super1 img{
+        width: 110%;
+    }
+    .small-img2 .small-img3{
+        width: 85%;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .sec5 .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .super1 img{
+        width: 110%;
+    }
+    .small-img2 .small-img3{
+        width: 85%;
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    
+}
+@media (min-width:1200px) and (max-width:1500px){
+
+}

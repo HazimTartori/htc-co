@@ -1,0 +1,123 @@
+.sec8{
+    padding: 3rem 0 0 0;
+    background-color:#002147 ;
+    /* transform: translate(-52%,100%); */
+}
+/* .sec6-hero{
+    width: 100%;
+    margin: auto;
+    height: 480px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FDC800;
+} */
+.sec8 .container{
+    /* background-color: #FDC800; */
+}
+.hazim{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-columns: 1fr 2fr; */
+    /* background-color: #1500fd; */
+    position: relative;
+}
+.end-left{
+    /* width: 40%;
+    position: relative;
+    left: 10%; */
+    display: grid;
+    padding: 3rem 0;
+    /* width: 280px; */
+    /* height: 200px; */
+    /* position: relative;
+    top: 15%;
+    left: 5%; */
+    /* gap: 2px; */
+    /* background-color: red; */
+    /* justify-items: center; */
+}
+.FOR-EDUCATION , .position , .email , .telephon{
+    display: flex;
+    gap: 5px;
+    color:white;
+    align-items: center; 
+    /* margin-left: 100px; */
+}
+.end-right{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 2rem 0;
+    /* position: relative;
+    top: 15%; */
+    /* transform: translateY(50px); */
+}
+.linkat123{
+    color: white;
+}
+.linkat1 , .linkat2 , .linkat3{
+    display: grid;
+    gap: 10px;
+}
+.word18{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+}
+.end11111{
+    margin: auto;
+    width: 100%;
+    height:70px ;
+    background-color: #FDC800;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50%;
+}
+.end-right a{
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    display: flex;
+    /* background-color: #FDC800; */
+}
+.end-right a:hover{
+    background-color: #FDC800;
+    border-radius: 10px;
+    /* width: 50px;
+    height: 25px; */
+    transform: scale(1.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:576px){
+    .end-left{
+        display: none;
+    }
+    .sec8{
+        /* padding: 0 0 0 0; */
+    }
+    .active1111{
+        display: none;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .end-left{
+        display: none;
+    }
+    .active1111{
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+
+}
+@media (min-width:992px) and (max-width:1200px){
+    
+}
+@media (min-width:1200px) and (max-width:1500px){
+
+}

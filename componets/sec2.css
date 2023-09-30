@@ -1,0 +1,125 @@
+.sec2 {
+    background-color:#F0F4F9;
+    /* background-color: #FDC800; */
+}
+.sec2 .container{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.active2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+#fa-solid1{
+    display: none;
+    cursor: pointer;
+}
+.active222 {
+    position: absolute;
+    right: 15%;
+    gap: 45px;
+}
+.button1 {
+    background-color:#FDC800 ;
+    width: 115px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgb(69, 64, 64);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button1:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    color: #FFFFFF;
+}
+.button2:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    /* color: #FFFFFF; */
+    color: #FDC800;
+}
+/* background-color: #FDC800; */
+.active222 a:hover{
+    background-color: #FDC800;
+    border-radius: 10px;
+    width: 70px;
+    height: 35px;
+    transform: scale(1.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .fa-magnifying-glass {
+} */
+/* #fa-solid1:hover + .active222{
+    display: grid;
+    position: absolute;
+    z-index: 1;
+    top: 14%;
+    left: 57%;
+    width: 15vh;
+    padding: 2rem;
+    color: #ffc800;
+    background-color: rgb(204, 39, 39);
+} */
+@media (max-width:576px){
+    .active222 {
+    display: none;
+    }
+    #fa-solid1{
+        display: inline-block;
+        color: #FDC800;
+        margin: 0 25px;
+    }
+    .active222 a{
+    background-color: aqua;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .active222 {
+        display: none;
+        }
+        /* #fa-solid1{
+            display: inline-block;
+            color: #FDC800;
+            
+        }  */
+}
+@media (min-width:768px) and (max-width:992px){
+    .active222 {
+        display: none;
+        }
+        #fa-solid1{
+            display: inline-block;
+            color: #FDC800;
+            position: relative;
+            left: 15%;
+            /* margin: 0 15px; */
+        }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .active222 {
+        transform: translate(-30%);
+        }
+}
+@media (min-width:1200px) and (max-width:1500px){
+    .active222 {
+        transform: translate(-30%);
+        }
+}
